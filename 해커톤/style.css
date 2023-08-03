@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: 'ROKABold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+#header {
+    background-image: url(./image/header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 101%;
+    margin-left: -8px;
+    height: 52px;
+    margin-top: -10px;
+    padding-top: 100px;
+    
+}
+h1 {
+    text-align: center;
+    margin-top: -55px;
+    font-family: ROKA;
+    
+
+}
+#header #menu {
+    width: 101%;
+    height: 50px;
+    margin-left: -2px;
+    border: 2px solid black;
+    padding-bottom: -60px;
+    float: left;
+    display: flex;
+  justify-content: center;
+}
+
+#menu div {
+    float: left;
+    text-align: center;
+    margin-right: 100px;
+
+}
+h2 {
+    font-size: 15pt;
+    font-family: ROKA;
+}
+#buttons {
+    padding: 2%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+#buttons div{
+    background: pink;
+    color: white;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+#buttons div:hover {
+    background: pink;
+    color: white;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-right: 55px;
+    transition-duration: 0.5s;
+    
+    
+    margin-left: -5px;
+    margin-top: -5px;
+    box-shadow: 5px 5px 5px gray;
+    
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    align-items: center;
+}
+
+
+img {
+    
+    margin-top: 5%;
+    width: 400px;
+    margin-left: 5%;
+    
+}
+#content {
+    width: 50%;
+    height: 400px; 
+    background: linear-gradient( 135deg, rgb(255, 248, 248), lightblue );
+    float: right;
+    margin-top: 3%;
+    margin-right: 10%;
+    border-radius: 50px 50px 50px 50px;
+    font-family: ROKA;
+}
+#ctitle {
+    font-size: 30pt;
+    margin-top: 80px;
+    margin-left: 80px;
+    
+}
+#ccontent {
+    margin: 80px;
+    margin-top: 50px;
+    font-size: 15pt;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,0 +1,207 @@
+
+@font-face {
+    font-family: 'ROKABold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.1/ROKABold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    overflow-x: hidden;
+
+    
+}
+#header {
+    background-image: url(./image/header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 101%;
+    margin-left: -8px;
+    height: 52px;
+    margin-top: -10px;
+    padding-top: 100px;
+    
+}
+h1 {
+    text-align: center;
+    margin-top: -55px;
+    font-family: ROKA;
+    
+
+}
+#header #menu {
+    width: 101%;
+    height: 50px;
+    margin-left: -2px;
+    border: 2px solid black;
+    padding-bottom: -60px;
+    float: left;
+    display: flex;
+  justify-content: center;
+}
+
+#menu div {
+    float: left;
+    text-align: center;
+    margin-right: 100px;
+
+}
+h2 {
+    font-size: 15pt;
+    font-family: ROKA;
+}
+#buttons {
+    padding: 2%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4 {
+    text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+#buttons div{
+    background: pink;
+    color: white;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+#buttons div:hover {
+    background: pink;
+    color: white;
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-right: 55px;
+    transition-duration: 0.5s;
+    
+    
+    margin-left: -5px;
+    margin-top: -5px;
+    box-shadow: 5px 5px 5px gray;
+    
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    
+    margin-top: 5%;
+    width: 400px;
+    margin-right: 5%;
+    float: right;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+#content {
+    width: 50%;
+    height: 400px; 
+    background: linear-gradient( 135deg, rgb(255, 248, 248), lightblue );
+    float: left;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 50px 50px 50px 50px;
+    font-family: ROKA;
+}
+#ctitle {
+    font-size: 30pt;
+    margin-top: 80px;
+    margin-left: 80px;
+    
+}
+#ccontent {
+    margin: 80px;
+    margin-top: 50px;
+    font-size: 15pt;
+}
+
+p {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+#youtube {
+    width: 101%;
+    border: 2px solid black;
+    margin-left: -10px;
+    height: 400px;
+    display: flex;
+  justify-content: center;
+}
+iframe {
+    width: 50%;
+    height: 398px;
+    margin-top: 1px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#body1 #img {
+    width: 700px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+    background-position: center;
+    background-image: url(/image/test.png);
+    
+}
+
+
+/* 부모 요소를 가운데 정렬 */
+#body1 #test {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 수직 가운데 정렬을 위해 추가 */
+    position: relative;
+    text-align: center;
+}
+
+/* 가로 폭이 700px인 #content1을 가운데 정렬 */
+#body1 #content1 {
+    width: 700px;
+    height: 2100px;
+    margin-bottom: 100px;
+    margin-left: 402px;
+    background: #F5F5F7;
+    text-align: center;
+}
+#title1 {
+    font-size: 25pt;
+    font-weight: bold;
+    
+}
+#content2 {
+    text-align: left;
+    margin: 100px;
+}
+#content2 p {
+    margin-top: 0px;
+}
+input[type="checkbox"] {
+    margin-right: 20px; /* 체크박스와 선택항목 사이 간격 조절 */
+}
+
+
+
+
+
+
+
+
+
+
